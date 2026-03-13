@@ -1,6 +1,16 @@
 # Laravel Blog
 
-Simple blog built with Laravel.
+## Install
+
+Install dependencies:
+
+```bash
+docker run --rm \
+-v $(pwd):/app \
+-w /app \
+laravelsail/php84-composer:latest \
+composer install
+```
 
 ## Run project
 
@@ -23,12 +33,8 @@ Password: password
 
 Admin panel:
 
-```
 http://localhost/admin
-```
 
 ## Public blog
 
-```
 http://localhost
-```
